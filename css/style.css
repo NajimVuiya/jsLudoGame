@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url('../image/bg-img.jpg');
+}
+
+.unique 
+{
+	margin: 0;
+	padding: 8px;
+	color: #efefef;
+	background-color: #000;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.container
+{
+	position: relative;
+}
+
+.game
+{
+	margin: auto;
+	position: absolute;
+	top: -2px;
+	left: 15%;
+}
+
+.scoreh2 {
+ 	margin-left: -100px;
+    text-align: center;
+    color: #efefef;
+}
+.dice-1 img 
+{
+	width: 60px;
+	margin-left: 40px;
+	margin-right: 40px;
+	float: left;
+	background-color:  #fff;
+	border-radius: 8px;
+}
+
+.dice-2 img 
+{
+	background-color:  #fff;
+	border-radius: 8px;
+	width: 60px;
+	overflow: hidden;
+}
+
+.player1Btn {
+    margin: 10px 1px 10px 24px;
+    padding: 7px 20px;
+    font-size: 14px;
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+
+.player2Btn
+{
+	margin: 10px 1px 10px 15px;
+    padding: 7px 20px;
+    font-size: 14px;
+    color: #fff;
+    background: #000;
+   	border: 1px solid #000;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+
+.player1Btn:hover 
+{
+	border: 1px solid #fff;
+}
+.player2Btn:hover{
+	border: 1px solid #fff;
+}
+
+.player1Btn:focus
+{
+	border: 1px solid #2196F3;
+}
+
+.player2Btn:focus
+{
+	border: 1px solid #2196F3;
+}
+/* score player start here */
+.player1Block {
+	width: 40%;
+    color: #fff;
+    float: left;
+}
+
+.player2Block {
+    width: 40%;
+    color: #fff;
+    overflow: hidden;
+}
+/* form design start here */
+form input[type="number"] {
+    margin: 0;
+    padding: 6px 10px;
+    border: 1px solid #9e9e9ead;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+form input[type="submit"],form input[type="reset"] {
+    padding: 5px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #efefefef;
+    background: #000;
+    transition-duration: 0.5s;
+}
+
+form input[type="submit"]:hover,form input[type="reset"]:hover
+{
+	border: 1px solid #fff;
+}
+
+form input[type="submit"]:focus,form input[type="reset"]:focus
+{
+	border: 1px solid #2196F3;
+}
